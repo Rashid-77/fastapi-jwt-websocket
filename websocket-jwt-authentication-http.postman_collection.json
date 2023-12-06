@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "e81d5ed2-75ce-412a-8770-228fdd8c661f",
+		"name": "websocket-jwt-authentication-http",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12870437"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
